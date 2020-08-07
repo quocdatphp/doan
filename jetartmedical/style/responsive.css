@@ -1,0 +1,69 @@
+@media only screen and (min-width: 1200px) {
+	.header__mobile {
+		display: none;
+	}
+}
+@media only screen and (max-width: 1199px) {
+	.header__mobile {
+		display: none;
+	}
+	.solution__btn > span {
+		font-size: 1.5vw;
+	}
+	.app__gg, .app__store {
+		padding: 1% 8%;
+	}
+	.experience__detail {
+		padding: 6.6vh 0;
+	}
+}
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 991px) {
+	.header__right > li {
+		font-size: 1.4vw;
+	}
+	.introduce__detail {
+		margin: 1vh 0;
+	}
+	.experience__heading {
+		font-size: 2.7vw;
+	}
+	.experience__text {
+		margin: 2vw 0;
+	}
+	.app__gg, .app__store {
+		padding: 1% 6%;
+	}
+	.experience__detail {
+		padding: 4vh 1vh;
+	}
+}
+@media only screen and (min-width: 767px) {
+	
+} 
+@media only screen and (max-width: 767px) {
+	.header__wrapper {
+		display: none;
+	}
+	.header__mobile {
+		display: block;
+	}
+	.link {
+		width: 80%;
+	}
+	.solution__btn > span {
+		font-size: 2.5vw;
+	}
+}
+@media only screen and (max-width: 575px) {
+	.btn-mobile, .experience__heading {
+		font-size: 3.7vw;
+	}
+	.sidebar {
+		margin: 6%;
+		padding: 2%;
+	}
+}
+
